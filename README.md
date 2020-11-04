@@ -14,3 +14,32 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+```python, term=True
+class Person():
+
+    def __init__(self):
+        self.name = 'Luis Enrique Vázquez Rodríguez'
+        self.nationality = 'mexican'
+        self.age = 26
+        self.education = 'Computer Engineering'
+        self.career = 'Data Engineer'
+
+class Profesional(Person):
+
+        coding = ['Python','Javascript','HTML','CSS','SQL','NoSQL','VBA']
+        tools = ['PySpark','GCP','Dataproc','Composer', 'Hadoop', 'Hive']
+        architecture = ['ETL','Pipelines','Dataframes','Nodes','Visualizations']
+        challenge = 'Studying for Google Cloud Data Engineer Certificate at the end of the year 2020'
+
+def Present():
+    me = Profesional()
+    print('Hi there!')
+    print(f"My name is {me.name}, I'm an {me.nationality} {me.career} with a {me.education} degree")
+    print("Here are the lenguajes that I know so far:", *me.coding, sep=',')
+    print("And here the tools that I can handle:", *me.tools, sep=',')
+    print("The architectures in my day a day:", *me.architecture, sep=',')
+    print(f"All of us have challenges and here is mine :D => {me.challenge}")
+    print("That's all! See you later :)")
+
+Present()
