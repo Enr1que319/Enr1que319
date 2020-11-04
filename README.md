@@ -31,8 +31,8 @@ class AboutMe:
     ongoing     : tuple = ("Airflow", "Go", "Scala")
     challenge   : str   = "Studying for Google Cloud Data Engineer Certificate at the end of the year 2020"
 
-    def Present(self):
+    def Myself(self):
         return json.dumps(asdict(self), indent=4)
 
-me = AboutMe()
-print(me.Present())
+Introduce = AboutMe()
+print(Introduce.Myself())
