@@ -38,10 +38,3 @@ Introduce = AboutMe()
 print(Introduce.Myself())
 
 ```
-### Lenguajes and Tools
-
-
-### Professional Profile
-
-
-
