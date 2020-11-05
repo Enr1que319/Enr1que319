@@ -1,4 +1,4 @@
-### Hi there 👋
+### Just run the script ⚙️🧠😎
 
 <!--
 **Enr1que319/Enr1que319** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
