@@ -21,15 +21,15 @@ from dataclasses import asdict, dataclass
 
 @dataclass
 class AboutMe:
-    name        : str   = "Enrique Vázquez"
-    age         : int   = 26
-    career      : str   = "Computer Engineer"
-    languages   : tuple = ("Python", "JS", "Bash", "VBA")
-    databases   : tuple = ("PostgreSQL", "MongoDB", "MySQL","Hive")
-    frameworks  : tuple = ("Spark", "Hadoop","Pandas", "D3", "Leaflet")
-    cloud       : tuple = ("Dataproc", "BigQuery", "Composer", "Storage")
-    ongoing     : tuple = ("Airflow", "Go", "Scala")
-    challenge   : str   = "Studying for Google Cloud Data Engineer Certificate at the end of the year 2020"
+    name            : str   = "Enrique Vázquez"
+    age             : int   = 26
+    career          : str   = "Computer Engineer"
+    languages       : tuple = ("Python", "JS", "Bash", "VBA")
+    databases       : tuple = ("PostgreSQL", "MongoDB", "MySQL","Hive")
+    frameworks/lib  : tuple = ("Spark","Pandas", "D3", "Leaflet")
+    cloud           : tuple = ("Dataproc", "BigQuery", "Composer", "Storage","Hadoop")
+    ongoing         : tuple = ("Airflow", "Go", "Scala")
+    challenge       : str   = "Studying for Google Cloud Data Engineer Certificate at the end of the year 2020"
 
     def Myself(self):
         return json.dumps(asdict(self), indent=4)
