@@ -29,7 +29,7 @@ class AboutMe:
     frameworks/lib  : tuple = ("Spark","Pandas", "D3", "Leaflet")
     cloud           : tuple = ("Dataproc", "BigQuery", "Composer", "Storage","Hadoop")
     ongoing         : tuple = ("Airflow", "Go", "Scala")
-    challenge       : str   = "Studying for Google Cloud Data Engineer Certificate at the end of the year 2020"
+    challenge       : str   = "Studying for Google Cloud Data Engineer Certificate at the end of the year 2021"
 
     def Myself(self):
         return json.dumps(asdict(self), indent=4)
