@@ -24,11 +24,11 @@ class AboutMe:
     name            : str   = "Enrique Vázquez"
     age             : int   = 26
     career          : str   = "Computer Engineer"
-    languages       : tuple = ("Python", "JS", "Bash", "VBA")
+    languages       : tuple = ("Python", "Scala", "JS", "Bash", "VBA")
     databases       : tuple = ("PostgreSQL", "MongoDB", "MySQL","Hive")
     frameworks/lib  : tuple = ("Spark","Pandas", "D3", "Leaflet")
-    cloud           : tuple = ("Dataproc", "BigQuery", "Composer", "Storage","Hadoop")
-    ongoing         : tuple = ("Airflow", "Go", "Scala")
+    cloud           : tuple = ("GCP", "AWS")
+    ongoing         : tuple = ("Airflow", "Go", "Kafka")
     challenge       : str   = "Studying for Google Cloud Data Engineer Certificate at the end of the year 2021"
 
     def Myself(self):
