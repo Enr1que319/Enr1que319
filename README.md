@@ -22,11 +22,11 @@ from dataclasses import asdict, dataclass
 @dataclass
 class AboutMe:
     name            : str   = "Enrique Vázquez"
-    age             : int   = 27
+    age             : int   = 29
     career          : str   = "Computer Engineer"
     languages       : tuple = ("Python", "Scala", "JS", "Bash", "VBA")
-    databases       : tuple = ("PostgreSQL", "MongoDB", "MySQL","Hive")
-    frameworks/lib  : tuple = ("Spark","Pandas", "D3", "Leaflet")
+    databases       : tuple = ("PostgreSQL", "MongoDB", "MySQL","Hive","Server","Firebase")
+    frameworks/lib  : tuple = ("Spark","Pandas")
     cloud           : tuple = ("GCP", "AWS")
     ongoing         : tuple = ("Airflow", "Go", "Kafka")
     challenge       : str   = "Studying for Google Cloud Data Engineer Certificate at the end of the year 2021"
