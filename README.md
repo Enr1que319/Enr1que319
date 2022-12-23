@@ -26,9 +26,9 @@ class AboutMe:
     career          : str   = "Computer Engineer"
     languages       : tuple = ("Python", "Scala", "JS", "Bash", "VBA")
     databases       : tuple = ("PostgreSQL", "MongoDB", "MySQL","Hive","Server","Firebase")
-    frameworks/lib  : tuple = ("Spark","Pandas")
+    frameworks/lib  : tuple = ("Spark","Pandas","Airflow")
     cloud           : tuple = ("GCP", "AWS")
-    ongoing         : tuple = ("Airflow", "Go", "Kafka")
+    ongoing         : tuple = ("Go", "Kafka")
     challenge       : str   = "Studying for Google Cloud Data Engineer Certificate at the end of the year 2021"
 
     def Myself(self):
