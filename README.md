@@ -22,14 +22,14 @@ from dataclasses import asdict, dataclass
 @dataclass
 class AboutMe:
     name            : str   = "Enrique Vázquez"
-    age             : int   = 29
+    age             : int   = 30
     career          : str   = "Computer Engineer"
     languages       : tuple = ("Python", "Scala", "JS", "Bash", "VBA")
-    databases       : tuple = ("PostgreSQL", "MongoDB", "MySQL","Hive","Server","Firebase")
+    databases       : tuple = ("PostgreSQL", "MongoDB", "MySQL","Hive","Server","Firebase", "Snowflake")
     frameworks/lib  : tuple = ("Spark","Pandas","Airflow")
     cloud           : tuple = ("GCP", "AWS")
-    ongoing         : tuple = ("Go", "Kafka")
-    challenge       : str   = "Studying for Google Cloud Data Engineer Certificate at the end of the year 2021"
+    ongoing         : tuple = ("Kafka", "Databricks")
+    challenge       : str   = "Getting new certs"
 
     def Myself(self):
         return json.dumps(asdict(self), indent=4)
